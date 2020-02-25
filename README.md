@@ -1,8 +1,9 @@
 # Image-Chooser
 Work Experience in Javascript.
 
-# The Project with my experence in Javascript
+# The Project with my experience in Javascript
 
-the project was one of the first experence I had with Javascript using HTML and CSS
+the project was one of the first coding with Visial Studio using the languaje of Javascript and HTML and CSS
+
 
 
