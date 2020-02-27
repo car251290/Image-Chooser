@@ -72,3 +72,15 @@ I use a <script> for the accion of the search bar and I put the code in the HTML
 
         }
     </script>
+    
+    
+    # The container of the image, are in a <div>
+    
+    <div>
+        <table align="right" style="width:60%"> <tr style="height:.5px"><td id="table">Technology-Equipment</td></tr> </table>
+
+        <table class="myimage-container" align="right" style="width:60%">
+
+            <tr class="table" style="height:10px"><td></td></tr>
+        </table>
+    </div>
