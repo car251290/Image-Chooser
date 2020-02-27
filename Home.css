@@ -1,0 +1,262 @@
+﻿/* Page-specific styling */
+body {
+    margin: 0 0 60px; /* bottom = footer height */
+    background: white;
+}
+/* search bar */
+.search {
+    display: block;
+    float: left;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 120%;
+    border: 35px solid #e1dfdd;
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 20px 14px 40px;
+    margin-bottom: 12px;
+}
+/* search term */
+.searchTerm {
+    width: 242px;
+    border: 2px solid #e1dfdd;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #000000;
+    margin-bottom: 2px;
+    float: left;
+    left: 90px;
+}
+    /* search color of the bar */
+    .searchTerm:focus {
+        color: #808080;
+    }
+
+
+/* search icon button */
+.searchButton {
+    width: 70px;
+    height: 34px;
+    border: 2px solid #e1dfdd;
+    background: #e1dfdd;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 2px;
+    float: left;
+    left: 80px;
+}
+/* search bar the text */
+.text-block {
+    position: relative;
+    margin-top: 2px;
+    bottom: 10px;
+    background-color: black;
+    color: black;
+    padding-left: 11px;
+    float: left;
+}
+
+/* Table text in the left */
+#myTable {
+    border-collapse: collapse;
+    width: 215px;
+    height: 665px;
+    display: block;
+    border: 9px solid #f3f2f1;
+    font-size: 11px;
+    margin-top: 1px;
+    background: #f3f2f1;
+}
+    /* Table with the text and color */
+
+    #myTable tr, #myTable td {
+        text-align: left;
+        padding: 2px;
+        color: #000000;
+        margin-top: 4px;
+    }
+    /* the container of the table with the text */
+    #myTable tr {
+        border-bottom: 1px solid #f3f2f1;
+        margin-top: 4px;
+    }
+
+/* Button text to scroll the selection subject */
+.btn {
+    background-color: #f3f2f1; /* Blue background */
+    border: none; /* Remove borders */
+    color: #484644; /* White text */
+    cursor: pointer; /* Mouse pointer on hover */
+    text-align: left; /* Text alination */
+    display: block; /* Display the block bar */
+}
+
+/* my contauner*/
+
+.myimage-container {
+    font-size: 12px;
+    display: block;
+    float: right;
+    right: 40px;
+    width: 20px;
+    height: 30px;
+}
+/* my image table */
+.imgchooser {
+    float: left;
+    width: 68px;
+    height: 40px;
+    padding: 1px;
+    top: .5px;
+}
+/* my image table */
+.table {
+    display: block;
+    height: 2px;
+    margin-top: .5px;
+    padding: 1px;
+    right: 5px;
+}
+
+#table {
+    font-size: 12px;
+    display: block;
+    top: 1px;
+    padding: 1px;
+    position: relative;
+    margin-top: 2px;
+}
+/* my contauner2*/
+.myimage-container2 {
+    font-size: 12px;
+    display: block;
+    float: right;
+    right: 50px;
+    width: 20px;
+    height: 30px;
+}
+/* the image container table2 */
+.imgchooser2 {
+    float: left;
+    width: 68px;
+    height: 40px;
+    padding: 1px;
+    top: .5px;
+}
+/* the id of the text table of the text */
+#table2 {
+    font-size: 12px;
+    text-align: left;
+    display: block;
+    margin-top: 120px;
+    top: .5px;
+    padding: 1px;
+}
+/* my table of the images */
+.table2 {
+    display: block;
+    padding: .1px;
+    height: 20px;
+}
+
+/* my image contauner*/
+.myimage-container3 {
+    font-size: 12px;
+    display: block;
+    float: right;
+    right: 50px;
+    width: 18px;
+    height: 30px;
+}
+/* my image table */
+.imgchooser3 {
+    float: left;
+    width: 80px;
+    height: 48px;
+    padding: 1px;
+    top: 1px;
+}
+/* the table of images*/
+.table3 {
+    display: block;
+    padding: 1px;
+}
+
+#table3 {
+    font-size: 12px;
+    text-align: left;
+    display: block;
+    padding: 4px;
+    height: 20px;
+    top: .5px;
+    margin-top: 128px;
+}
+
+/* my image contauner*/
+.myimage-container4 {
+    font-size: 12px;
+    display: block;
+    float: right;
+    right: 50px;
+    width: 18px;
+    height: 30px;
+}
+/* my image table4 */
+.table4 {
+    display: block;
+    padding: 1px;
+}
+
+.imgchooser4 {
+    float: left;
+    width: 68px;
+    height: 40px;
+    padding: 1px;
+    top: .5px;
+}
+
+#table4 {
+    font-size: 12px;
+    text-align: left;
+    display: block;
+    padding: 1px;
+    margin-top: 130px;
+    top: .5px;
+}
+/* my image contauner*/
+.myimage-container5 {
+    font-size: 11px;
+    display: block;
+    float: right;
+    right: 50px;
+    width: 18px;
+    height: 50px;
+}
+/* my image table4 */
+.table5 {
+    display: block;
+    padding: 1px;
+}
+
+.imgchooser5 {
+    float: left;
+    width: 68px;
+    height: 40px;
+    padding: 1px;
+    top: .5px;
+}
+
+#table5 {
+    font-size: 12px;
+    text-align: left;
+    display: block;
+    padding: 1px;
+    margin-top: 130px;
+    top: .5px;
+}
