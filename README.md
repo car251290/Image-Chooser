@@ -46,4 +46,29 @@ Every subject has an Array of images that will be displayed in a table for makin
     padding: 14px 20px 14px 40px;
     margin-bottom: 12px;
 }
+# Html 
+I use a <script> for the accion of the search bar and I put the code in the HTML.
+       <script>
+        function myFunction() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("imgchooser");
+            table2 = document.getElementById("imgchooser2");
+            table3 = document.getElementById("imgchooser3");
+            tr = table.getElementsByTagName("tr");
 
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+
+        }
+    </script>
