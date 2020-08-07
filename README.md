@@ -10,6 +10,8 @@ Every subject has an Array of images that will be displayed in a table for makin
 
 # Javascript function for using the URL and display the images
 
+I made to select image in a sort way to getting better understanding how to build it.
+
    # Function for display the imagine in the addin
     function displayimage() {
 
