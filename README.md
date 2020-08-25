@@ -8,6 +8,8 @@ Also, I use the CSS and the HTML for making the design of the Add-in the best wa
 
 Every subject has an Array of images that will be displayed in a table for making the display I made a function for getting the call back function of the database of the images that are stored in the URL.
 
+# New Image chooser
+as word has improve the experence the user select the icons, yo make it easier for everyone I improve the code to make it easier as possible
 # Javascript function for using the URL and display the images
 
 I made to select image in a sort way to getting better understanding how to build it.
@@ -48,6 +50,8 @@ I made to select image in a sort way to getting better understanding how to buil
     padding: 14px 20px 14px 40px;
     margin-bottom: 12px;
 }
+# The Html for the selection 
+the filter and how to make it work in the 3 different tables, where there are showing the images.
 # Html 
 I use a <script> for the accion of the search bar and I put the code in the HTML.
        <script>
