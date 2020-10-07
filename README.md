@@ -10,10 +10,14 @@ Also, I use the CSS and the HTML for making the design of the Add-in the best wa
 Every subject has an Array of images that will be displayed in a table for making the display I made a function for getting the call back function of the database of the images that are stored in the URL.
 
 # New Image chooser
-as word has improve the experence the user select the icons, yo make it easier for everyone I improve the code to make it easier as possible
+as word has improve the experence the user select the icons, I am makinng this web application to deplayment easier for everyone I improve the code to make it easier as possible.
+
 # Javascript function for using the URL and display the images
 I made to select image in a sort way to getting better understanding how to build it.
 to get database storeted in Sharepoint
+
+# Update the Css and Html I am updating this application.
+I making easier this application too also I change the looking because can be easier for the user.
 
    # Function for display the imagine in the addin
     function displayimage() {
