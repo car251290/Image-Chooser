@@ -2,261 +2,204 @@
 body {
     margin: 0 0 60px; /* bottom = footer height */
     background: white;
+    font-family: Segoe UI, Segoe UI, serif;
 }
-/* search bar */
-.search {
-    display: block;
-    float: left;
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    width: 120%;
-    border: 35px solid #e1dfdd;
-    font-size: 18px;
-    text-align: center;
-    padding: 14px 20px 14px 40px;
-    margin-bottom: 12px;
+/* bottom = footer height */
+* {
+    box-sizing: border-box;
 }
-/* search term */
-.searchTerm {
-    width: 242px;
-    border: 2px solid #e1dfdd;
-    border-right: none;
-    padding: 5px;
-    height: 20px;
-    border-radius: 5px 0 0 5px;
-    outline: none;
-    color: #000000;
-    margin-bottom: 2px;
-    float: left;
-    left: 90px;
-}
-    /* search color of the bar */
-    .searchTerm:focus {
-        color: #808080;
-    }
-
-
-/* search icon button */
 .searchButton {
-    width: 70px;
-    height: 34px;
-    border: 2px solid #e1dfdd;
-    background: #e1dfdd;
-    text-align: center;
-    color: #fff;
-    border-radius: 0 5px 5px 0;
+    background-color: #484644
+
+}
+#myinput {
+    background-image: url('./Images/icons8search-24.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 1px;
+}
+/* search bar animation  css */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 12px;
+    border: .7px solid #e1dfdd;
+    float: left;
+    width: 90%;
+    background: #ffffff;
+}
+/* search bar css animation */
+form.example button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background-color: #ffffff;
+    color: gray;
+    font-size: 12px;
+    border: .5px solid #e1dfdd;
+    border-left: none;
     cursor: pointer;
-    font-size: 20px;
-    margin-bottom: 2px;
-    float: left;
-    left: 80px;
-}
-/* search bar the text */
-.text-block {
-    position: relative;
-    margin-top: 2px;
-    bottom: 10px;
-    background-color: black;
-    color: black;
-    padding-left: 11px;
-    float: left;
 }
 
-/* Table text in the left */
-#myTable {
-    border-collapse: collapse;
-    width: 215px;
-    height: 665px;
+    form.example button:hover {
+        background: #ffffff;
+        font-size: 12px;
+        
+    }
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* scrollbar icon  */
+.clickable {
+    cursor: pointer;
+    height: 40px;
+    width: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+/* scrollbar */
+.content {
+    display: inline-flex;
+    height: 100%;
+    min-width: calc(190px *5);
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    transition: all .6s;
+}
+
+.mainViewer {
+    max-width: 580px;
+    width: 580px;
+    height: 45px;
+    overflow: hidden;
+    border-color: #605e5c;
+}
+
+
+.filterDiv {
+    float: inherit;
+    background-color: #2196F3;
+    margin: 2px;
+    display: none;
+}
+
+.show {
     display: block;
-    border: 9px solid #f3f2f1;
-    font-size: 11px;
-    margin-top: 1px;
-    background: #f3f2f1;
 }
-    /* Table with the text and color */
+/* clickable */
 
-    #myTable tr, #myTable td {
-        text-align: left;
-        padding: 2px;
-        color: #000000;
-        margin-top: 4px;
-    }
-    /* the container of the table with the text */
-    #myTable tr {
-        border-bottom: 1px solid #f3f2f1;
-        margin-top: 4px;
-    }
+.clickable {
+    cursor: pointer;
+}
 
-/* Button text to scroll the selection subject */
+.arrow {
+    border: solid gray;
+    border-width: 0px 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    align-content: start;
+}
+
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+/* Style the buttons */
+
+#btnR {
+    border: none;
+    outline: none;
+    padding: 9px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: .5em;
+    margin-top: 5px;
+    background: white;
+    height: 35px;
+    width: 15px;
+}
+
+/* makin the window static  css */
+column {
+    padding: 5px;
+    padding-top: 1px;
+    width: 100%;
+}
+
+.column {
+    padding: 5px;
+}
+ 
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+img {
+    max-height: 130px;
+    max-width: 100px;
+    width: 150%;
+    height: 120%;
+    
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+.row {
+    display: flex;
+}
+   
+/* New scroll left bar */
+.show {
+    display: inline-block;
+}
+
+.container {
+    overflow: hidden;
+}
+
+/* Style the buttons */
 .btn {
-    background-color: #f3f2f1; /* Blue background */
-    border: none; /* Remove borders */
-    color: #484644; /* White text */
-    cursor: pointer; /* Mouse pointer on hover */
-    text-align: left; /* Text alination */
-    display: block; /* Display the block bar */
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: .8em;
+    margin-left: .3px;
+    margin-right: .3px;
+    margin-top: 5px;
+    height: 35px;
+    width: 96px;
+    color: #605e5c;
+    /* Style the buttons */
+    justify-content: center;
 }
+    /* Add a light grey background on mouse-over */
+    .btn:hover {
+        background-color: #f1f1f1;
+    }
 
-/* my contauner*/
+    /* Add a dark background to the active button */
+    .btn.active {
+        background-color: #f1f1f1;
+    }
 
-.myimage-container {
-    font-size: 12px;
-    display: block;
-    float: right;
-    right: 40px;
-    width: 20px;
-    height: 30px;
-}
-/* my image table */
-.imgchooser {
-    float: left;
-    width: 68px;
-    height: 40px;
-    padding: 1px;
-    top: .5px;
-}
-/* my image table */
-.table {
-    display: block;
-    height: 2px;
-    margin-top: .5px;
-    padding: 1px;
-    right: 5px;
-}
 
-#table {
-    font-size: 12px;
-    display: block;
-    top: 1px;
-    padding: 1px;
-    position: relative;
-    margin-top: 2px;
-}
-/* my contauner2*/
-.myimage-container2 {
-    font-size: 12px;
-    display: block;
-    float: right;
-    right: 50px;
-    width: 20px;
-    height: 30px;
-}
-/* the image container table2 */
-.imgchooser2 {
-    float: left;
-    width: 68px;
-    height: 40px;
-    padding: 1px;
-    top: .5px;
-}
-/* the id of the text table of the text */
-#table2 {
-    font-size: 12px;
-    text-align: left;
-    display: block;
-    margin-top: 120px;
-    top: .5px;
-    padding: 1px;
-}
-/* my table of the images */
-.table2 {
-    display: block;
-    padding: .1px;
-    height: 20px;
-}
-
-/* my image contauner*/
-.myimage-container3 {
-    font-size: 12px;
-    display: block;
-    float: right;
-    right: 50px;
-    width: 18px;
-    height: 30px;
-}
-/* my image table */
-.imgchooser3 {
-    float: left;
-    width: 80px;
-    height: 48px;
-    padding: 1px;
-    top: 1px;
-}
-/* the table of images*/
-.table3 {
-    display: block;
-    padding: 1px;
-}
-
-#table3 {
-    font-size: 12px;
-    text-align: left;
-    display: block;
-    padding: 4px;
-    height: 20px;
-    top: .5px;
-    margin-top: 128px;
-}
-
-/* my image contauner*/
-.myimage-container4 {
-    font-size: 12px;
-    display: block;
-    float: right;
-    right: 50px;
-    width: 18px;
-    height: 30px;
-}
-/* my image table4 */
-.table4 {
-    display: block;
-    padding: 1px;
-}
-
-.imgchooser4 {
-    float: left;
-    width: 68px;
-    height: 40px;
-    padding: 1px;
-    top: .5px;
-}
-
-#table4 {
-    font-size: 12px;
-    text-align: left;
-    display: block;
-    padding: 1px;
-    margin-top: 130px;
-    top: .5px;
-}
-/* my image contauner*/
-.myimage-container5 {
-    font-size: 11px;
-    display: block;
-    float: right;
-    right: 50px;
-    width: 18px;
-    height: 50px;
-}
-/* my image table4 */
-.table5 {
-    display: block;
-    padding: 1px;
-}
-
-.imgchooser5 {
-    float: left;
-    width: 68px;
-    height: 40px;
-    padding: 1px;
-    top: .5px;
-}
-
-#table5 {
-    font-size: 12px;
-    text-align: left;
-    display: block;
-    padding: 1px;
-    margin-top: 130px;
-    top: .5px;
-}
