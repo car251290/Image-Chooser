@@ -13,8 +13,12 @@ Every subject has an Array of images that will be displayed in a table for makin
 as word has improve the experence the user select the icons, I am makinng this web application to deplayment easier for everyone I improve the code to make it easier as possible.
 ## SharePoint
 
+A SharePoint Add-in is a self-contained piece of functionality that extends the capabilities of SharePoint websites to solve a well-defined business problem.
+Add-ins don't have custom code that runs on SharePoint servers. Instead, all custom logic moves "up" to the cloud, or "down" to client computers, or "over" to an on-premises server that is outside the SharePoint farm or SharePoint Online subscription. Keeping custom code off SharePoint servers provides reassurance to SharePoint administrators that the add-in can't harm their servers or reduce the performance of their SharePoint Online websites.
+
 All SharePoint Add-ins that users install get a tile on the Site Contents page of the SharePoint website. Clicking the tile runs the add-in.
 A SharePoint Add-in is configured using an add-in manifest—an XML file that declares the add-in's basic properties, where it runs, and what SharePoint should do when the add-in starts
+
 # Javascript function for using the URL and display the images
 I made to select image in a sort way to getting better understanding how to build it.
 to get database storeted in Sharepoint
