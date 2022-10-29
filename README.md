@@ -11,7 +11,10 @@ Every subject has an Array of images that will be displayed in a table for makin
 
 # New Image chooser
 as word has improve the experence the user select the icons, I am makinng this web application to deplayment easier for everyone I improve the code to make it easier as possible.
+## SharePoint
 
+All SharePoint Add-ins that users install get a tile on the Site Contents page of the SharePoint website. Clicking the tile runs the add-in.
+A SharePoint Add-in is configured using an add-in manifest—an XML file that declares the add-in's basic properties, where it runs, and what SharePoint should do when the add-in starts
 # Javascript function for using the URL and display the images
 I made to select image in a sort way to getting better understanding how to build it.
 to get database storeted in Sharepoint
