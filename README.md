@@ -65,8 +65,10 @@ I making easier this application too also I change the looking because can be ea
 # The Html for the selection 
 the filter and how to make it work in the 3 different tables, where there are showing the images.
 # Html 
+
 I use a <script> for the accion of the search bar and I put the code in the HTML.
        <script>
+ # JavaScript
         function myFunction() {
             var input, filter, table, tr, td, i, txtValue;
             input = document.getElementById("myInput");
@@ -178,7 +180,7 @@ I use a <script> for the accion of the search bar and I put the code in the HTML
     
     
     # The container of the image, are in a <div>
-    
+    # HTML
     <div>
         <table align="right" style="width:60%"> <tr style="height:.5px"><td id="table">Technology-Equipment</td></tr> </table>
 
