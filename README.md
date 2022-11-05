@@ -24,6 +24,8 @@ A SharePoint Add-in is configured using an add-in manifest—an XML file that de
 I made to select image in a sort way to getting better understanding how to build it.
 to get database storeted in Sharepoint
 
+This Ecma Standard defines the ECMAScript 2023 Language. It is the fourteenth edition of the ECMAScript Language Specification. Since publication of the first edition in 1997, ECMAScript has grown to be one of the world's most widely used general-purpose programming languages. It is best known as the language embedded in web browsers but has also been widely adopted for server and embedded applications.
+
 # Update the Css and Html I am updating this application.
 I making easier this application too also I change the looking because can be easier for the user.
 
